@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Blog = () => {
+export const Services = () => {
   return (
     <div>
       <h1>Blog</h1>
