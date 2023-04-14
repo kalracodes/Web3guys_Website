@@ -47,8 +47,7 @@ function CustomerReviewHome() {
 					/>
 				</div>
 			</div>
-      <div className="CustomerStars"></div>
-      .ctr_human_
+			<div className="CustomerStars"></div>
 		</div>
 	);
 }
