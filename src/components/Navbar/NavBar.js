@@ -51,12 +51,12 @@ function NavBar() {
             <li className='nav-item'>
               <NavLink
                 exact
-                to='/services'
+                to='/courses'
                 activeClassName='active'
                 className='nav-links'
                 onClick={handleClick}
               >
-                Services
+                Courses
               </NavLink>
             </li>
           </ul>

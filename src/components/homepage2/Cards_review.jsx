@@ -17,10 +17,10 @@ function CustomerReviewCards(props) {
 			<div className="review_quote">
 				<div className="review_quote_quote">"</div>
 			</div>
-			<div className="review_glow">
+			{/* <div className="review_glow">
 				<div className="review_glow_glow"></div>
 				<div className="review_mask"></div>
-			</div>
+			</div> */}
 		</div>
 	);
 }

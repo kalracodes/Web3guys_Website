@@ -126,9 +126,7 @@
 	color: #000814;
 	border: none;
 }
-.nav-ctf:hover{
-  /* font-weight: 800; */
-}
+
 @media screen and (max-width: 960px) {
 	.nav-menu {
 		display: flex;
