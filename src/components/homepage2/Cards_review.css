@@ -1,0 +1,234 @@
+/* Review Card */
+.reviews {
+	box-sizing: border-box;
+
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 24px 36px;
+	gap: 36px;
+	isolation: isolate;
+
+	width: 704px;
+	height: 396px;
+	z-index: 100;
+	background: #262129;
+	border: 4px solid #8d7d66;
+
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+/* Text */
+.review_text {
+	/* Auto layout */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 36px;
+
+	width: 356px;
+	height: 270px;
+
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	z-index: 0;
+}
+
+/* “Single Grain has been key in helping us generate B2B engagement across digital channels. We can count on them to bring new ideas to the table consistently and that's why we love working with them.” */
+.review_texts {
+	width: 356px;
+	height: 180px;
+
+	/* Body/Med-16 */
+	font-family: "SF Pro";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 168%;
+	/* or 27px */
+	letter-spacing: -0.015em;
+
+	color: #e0d8ca;
+
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+/* Frame 30 */
+.review_author {
+	/* Auto layout */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 4px;
+
+	width: 356px;
+	height: 54px;
+
+	/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+/* Harry Smith */
+.review_author_text {
+	width: 356px;
+	height: 25px;
+
+	/* Body/Med-16 */
+	font-family: "SF Pro";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 168%;
+	/* or 27px */
+	letter-spacing: -0.015em;
+
+	color: #f5ce93;
+
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+/* Co-Founder, Imaginary Company */
+.review_author_company {
+	width: 356px;
+	height: 25px;
+
+	/* Body/Med-16 */
+	font-family: "SF Pro";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 168%;
+	/* or 27px */
+	letter-spacing: -0.015em;
+
+	color: #f5ce93;
+
+	/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+/* Image */
+.review_img img {
+	width: 240px;
+	height: 348px;
+
+	/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	z-index: 1;
+}
+/* Quote */
+.review_quote {
+  overflow: hidden;
+	/* Auto layout */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+
+	position: relative;
+	width: 56px;
+	height: 56px;
+	left: -650px;
+	top: -196px;
+
+	/* G2 */
+	background: linear-gradient(135deg, #9d54c2 0%, #66288f 100%);
+	border-radius: 100px;
+
+	/* Inside auto layout */
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+	z-index: 2;
+}
+
+.review_quote_quote {
+	width: 24px;
+	height: 58px;
+
+	font-family: "Integral CF";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 58px;
+	/* identical to box height */
+
+	color: #ffdaa2;
+}
+
+/* Noise */
+.review_noise {
+	position: absolute;
+	width: 704px;
+	height: 396px;
+	left: calc(50% - 704px / 2);
+	top: calc(50% - 396px / 2);
+
+	opacity: 0.12;
+
+	/* Inside auto layout */
+	flex: none;
+	order: 3;
+	flex-grow: 0;
+	z-index: 3;
+}
+
+/* Glow */
+.review_glow {
+	position: relative;
+	width: 704px;
+	height: 396px;
+	left: calc(-1000px);
+	top: calc(50% - 396px / 2);
+
+	opacity: 0.03;
+
+	/* Inside auto layout */
+	flex: none;
+	order: 4;
+	flex-grow: 0;
+	z-index: 4;
+}
+
+/* Mask Base */
+.review_musk {
+	position: relative;
+	width: 704px;
+	height: 396px;
+	left: 0px;
+	top: 0px;
+	background: #d9d9d9;
+}
+
+/* Glow */
+.review_glow_glow {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	left: 200px;
+	top: -202px;
+
+	/* G1 */
+	background: linear-gradient(135deg, #f5ba76 0%, #f576ad 100%);
+	filter: blur(80px);
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+}
