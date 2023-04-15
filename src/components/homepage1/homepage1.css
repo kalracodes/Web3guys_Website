@@ -225,8 +225,8 @@
 }
 .arrow-drop-right-line-1-icon {
 	position: relative;
-	width: 24px;
-	height: 24px;
+	height: 12px;
+	margin-left: 3px;
 	flex-shrink: 0;
 	overflow: hidden;
 	z-index: 150;
