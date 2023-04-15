@@ -37,7 +37,7 @@ function NavBar() {
                 Home
               </NavLink>
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <NavLink
                 exact
                 to='/about'
@@ -47,7 +47,7 @@ function NavBar() {
               >
                 About
               </NavLink>
-            </li>
+            </li> */}
             <li className='nav-item'>
               <NavLink
                 exact
