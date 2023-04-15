@@ -1,0 +1,28 @@
+.faqs-main {
+    margin-left: 120px;
+  }
+  
+  .faqs-main > h1 {
+    font-weight: 800;
+    font-size: 40px;
+    color: #ffdaa2;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+  }
+  
+  .faqs-main > p {
+    color: #ad9f8a;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 168%;
+    letter-spacing: -0.015em;
+  }
+  
+  .accordion--container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    margin-top: 50px;
+  }
+  
+  

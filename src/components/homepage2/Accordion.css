@@ -1,0 +1,30 @@
+.accordion-container{
+    max-width: 80%;
+    background-color: #262129;
+    border: 4px solid #8D7D66;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.question-div {
+    color: #ffdaa2;
+    background-color: #262129;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .answer-div {
+    color: #ad9f8a;
+    background-color: #262129;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: -10px;
+  }
+  
