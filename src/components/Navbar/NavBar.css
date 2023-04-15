@@ -116,8 +116,9 @@
 	margin-right: 60px;
 	background: #ffdaa2;
 	border-radius: 48px;
-	font-family: "SF Pro Text";
+	font-family: "SF Pro";
 	font-style: normal;
+	cursor: pointer;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 168%;

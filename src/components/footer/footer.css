@@ -1,5 +1,5 @@
 footer {
-	margin-top: 400px;
+	margin-top: -400px;
 	margin-bottom: 50px;
 }
 .footer{
@@ -67,16 +67,24 @@ footer {
 	left: 0px;
 	top: 0px;
 
-	background: url(../../assets/stars.webp);
+	/* background: url(../../assets/stars-bg@2x.png); */
 	mix-blend-mode: screen;
 	/* opacity: 0.28; */
-
+	object-fit: cover;
 	/* Inside auto layout */
 
 	flex: none;
 	order: 2;
 	flex-grow: 0;
-	z-index: 2;
+	z-index: -1;
+}
+.stars-bg-footer {
+	top: 1px;
+	height: 790.15px;
+	object-fit: cover;
+	opacity: 0.5;
+	mix-blend-mode: screen;
+	z-index: 1;
 }
 .ctr-footer{
 	margin-top: -530px;

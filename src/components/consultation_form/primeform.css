@@ -92,6 +92,7 @@ form {
 .cross {
   margin-top: 2px;
   margin-right: 20px;
+  cursor: pointer;
 }
 .form-logo {
   align-items: center;

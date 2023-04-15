@@ -72,7 +72,7 @@ function Course() {
 	return (
 		<div>
 			<div className="courseHeader">
-				<div className="CourseHead">Free Courses By TheWeb3Guys</div>
+				<div className="CourseHead">Free Courses By Us</div>
 				{/* <div className="CourseSearch"></div> */}
 			</div>
 			<div className="courses">

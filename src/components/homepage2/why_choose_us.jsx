@@ -3,10 +3,12 @@ import './why_choose_us.css'
 import icon_holder1 from "../../assets/icon-holder.svg";
 import icon_holder2 from "../../assets/icon-holder1.svg";
 import icon_holder3 from "../../assets/icon-holder2.svg";
+import starsBg from "../../assets/stars-bg@2x.png";
 
 function WhyChooseUs() {
 	return (
 		<div>
+			<img class="stars-bg-us" alt="" src={starsBg} />
 			<div className="why-choose-us">
 				<div className="head-subhead" id="head">
 					<div className="why-choose-us1">Why Choose Us ?</div>

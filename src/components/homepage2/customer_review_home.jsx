@@ -2,6 +2,7 @@ import React from "react";
 import CustomerReviewCards from "./Cards_review";
 import Aryan from "../../assets/Aryan.jpeg";
 import "./customer_review_home.css";
+import starsBg from "../../assets/stars-bg@2x.png";
 function CustomerReviewHome() {
 	var review = [
 		{
@@ -47,7 +48,9 @@ function CustomerReviewHome() {
 					/>
 				</div>
 			</div>
-			<div className="CustomerStars"></div>
+			<div className="CustomerStars">
+				<img class="stars-bg-customer" alt="" src={starsBg} />
+			</div>
 		</div>
 	);
 }

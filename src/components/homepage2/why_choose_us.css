@@ -149,3 +149,14 @@
   color: #ffdaa2;
   font-family: var(--head-40);
 }
+
+.stars-bg-us {
+	position: absolute;
+	width: 1440px;
+	z-index: 1;
+	height: 790.15px;
+	object-fit: cover;
+	opacity: 0.5;
+	mix-blend-mode: screen;
+	z-index: 1;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import { Link } from "react-router-dom";
 import logo from "../../assets/website-logo.svg";
 import facebook from "../../assets/facebook.svg";
 import twitter from "../../assets/twitter.svg";
@@ -19,15 +20,15 @@ export function Footer() {
 					&copy;2023 TheWeb3Guys. All Rights Reserved
 				</div>
 				<div className="footer-links">
-					<div className="footer-link">
+					<Link to="https://www.instagram.com/theweb3guys/" target="_blank" className="footer-link">
 						<img src={facebook} alt="" />
-					</div>
-					<div className="footer-link">
-						<img src={twitter} alt="" />
-					</div>
-					<div className="footer-link">
+					</Link>
+					<Link to="https://www.youtube.com/@theweb3guys" target="_blank" className="footer-link">
 						<img src={linkedin} alt="" />
-					</div>
+					</Link>
+					<Link to ="https://twitter.com/theweb3guys" target="_blank" className="footer-link">
+						<img src={twitter} alt="" />
+					</Link>
 				</div>
 			</div>
 		</footer>
