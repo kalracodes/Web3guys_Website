@@ -16,13 +16,18 @@
     font-size: 20px;
     line-height: 168%;
     letter-spacing: -0.015em;
+    margin-bottom: 25px;
+    margin-top: 5px;
   }
   
   .accordion--container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 50px;
-    margin-top: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
   }
+
+
+
+
   
   

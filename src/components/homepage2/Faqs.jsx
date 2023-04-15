@@ -34,7 +34,7 @@ export default function Faqs() {
     <h1>Frequently Asked Questions</h1>
     <p>Need Help? We're Here to Support You</p>
     <div className="accordion--container">
-      <Accordion items={items} />
+      <Accordion class="ac-item" items={items} />
     </div>
   </div>
   );

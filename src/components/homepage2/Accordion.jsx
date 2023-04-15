@@ -9,7 +9,7 @@ export default function Accordion({ items }) {
   };
 
   return (
-    <div>
+    <>
       {items.map((item, index) => (
         <div key={index} onClick={() => handleClick(index)}
         className='accordion-container'>
@@ -23,6 +23,6 @@ export default function Accordion({ items }) {
           )}
         </div>
       ))}
-    </div>
+    </>
   );
 }
