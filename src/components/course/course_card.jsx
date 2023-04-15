@@ -1,5 +1,5 @@
 import React from "react";
-import web3sampleimg from "../../assets/web3sampleimg.webp";
+import { Link } from 'react-router-dom';
 import dot from "../../assets/dot.svg";
 import "./course_card.css"
 import rightArrow from "../../assets/right_arrow.svg"
@@ -8,7 +8,7 @@ function CourseCard(props) {
 		<div>
 			<div className="CourseCard">
 				<div className="Courseimg">
-					<img src={web3sampleimg} alt="" />
+					<img src={props.img} alt="" />
 				</div>
 				<div className="CourseText">
 					<div className="CourseHeader">{props.Title}</div>
@@ -19,12 +19,13 @@ function CourseCard(props) {
 					</div>
 				</div>
                 <div className="CourseDetails">
-                    <div className="Courselectures">12 Lessons</div>
+                    <div className="Courselectures">{props.lecture} Lessons</div>
                     <img src={dot} alt="" />
-                    <div className="Courselevel">Beginner</div>
+                    <div className="Courselevel">{props.level}</div>
                 </div>
-				<button className="CourseCTA" >Start Learning
-				<img src={rightArrow} alt="" /></button>
+				<Link className="CourseCTA" to={props.Url} target="_blank">
+					Start Learning
+				<img src={rightArrow} alt="" /></Link>
 			</div>
 		</div>
 	);
