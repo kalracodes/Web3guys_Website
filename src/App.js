@@ -4,7 +4,6 @@ import { BrowserRouter as Router,  Route, Routes } from "react-router-dom";
 import { Home } from "./Pages/Home.js"
 import { About } from "./Pages/About";
 import { Courses } from "./Pages/Courses";
-import { Footer } from "./components/footer/Footer";
 function App() {
   return (
     <>
@@ -19,7 +18,6 @@ function App() {
           </Routes>
         </div>
       </Router>
-      <Footer/>
   </>
   );
 }

@@ -1,0 +1,130 @@
+.CourseCard {
+	display: flex;
+	flex-direction: column;
+	/* align-items: flex-start; */
+	padding: 16px 16px 24px;
+	gap: 15px;
+
+	width: 248px;
+	height: 317.5px;
+
+	background: #272429;
+	border-radius: 12px;
+}
+.Courseimg{
+  max-width: 248px;
+	max-height: 139.5px;
+}
+.Courseimg img {
+  width: 248px;
+	height: 139.5px;
+	border-radius: 6px;
+}
+
+.CourseText {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 12px;
+	/* width: 240px;
+	height: 58px; */
+}
+.CourseHeader {
+	font-family: "SF Pro";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 168%;
+	/* identical to box height, or 27px */
+
+	letter-spacing: -0.015em;
+
+	color: #ffffff;
+}
+.CourseTags {
+  /* margin-top: 8px; */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 8px;
+
+	width: 173px;
+	height: 25px;
+}
+
+.CourseTag {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 4px 8px;
+
+	width: 43px;
+	height: 25px;
+
+	background: #454247;
+	border-radius: 100px;
+	font-family: "SF Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 168%;
+	/* identical to box height, or 17px */
+
+	letter-spacing: -0.015em;
+
+	color: #b8b8b8;
+}
+.CourseDetails {
+  margin-top: 15px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	gap: 6px;
+
+	width: 187px;
+	height: 20px;
+	font-family: "SF Pro";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 168%;
+	/* or 20px */
+
+	letter-spacing: -0.015em;
+
+	color: #dfdfdf;
+}
+
+.CourseCTA {
+  margin-top:6px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	width: 118px;
+	height: 24px;
+	border-radius: 48px;
+	flex: none;
+	order: 3;
+	flex-grow: 0;
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-family: "SF Pro";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 168%;
+	/* identical to box height, or 24px */
+
+	letter-spacing: -0.015em;
+
+	color: #ffffff;
+}
+.CourseCTA img{
+  padding-left:8px;
+}

@@ -1,7 +1,10 @@
 footer {
 	margin-top: 400px;
+	margin-bottom: 50px;
 }
-
+.footer{
+	margin-top:0px !important;
+}
 .footer-line-1 {
 	margin-top: 60px !important;
 	margin: 0px 120px;

@@ -1,0 +1,31 @@
+.CourseHead {
+	margin-top: 60px;
+	margin-left: 120px;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 120%;
+	/* identical to box height, or 29px */
+
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+
+	color: #ffdaa2;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.courses {
+  margin-top:50px;
+  margin-left:120px;
+  margin-right:120px;
+	display: flex;
+  flex-wrap: wrap;
+	flex-direction: row;
+	padding: 0px;
+	gap: 25px;
+}
