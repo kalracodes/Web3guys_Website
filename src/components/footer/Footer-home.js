@@ -5,27 +5,32 @@ import logo from "../../assets/website-logo.svg";
 import facebook from "../../assets/facebook.svg";
 import twitter from "../../assets/twitter.svg";
 import linkedin from "../../assets/linkedin.svg";
-import rightArrow from "../../assets/right_arrow.svg";
 import starsBg from "../../assets/stars-bg@2x.png";
 export function Footer() {
 	return (
 		<footer>
 			<div className="footer-stars">
-			<img class="stars-bg-footer" alt="" src={starsBg} />
+				<img class="stars-bg-footer" alt="" src={starsBg} />
 			</div>
 			<div className="ctr-footer">
 				<div className="talktohuman">
 					<div className="talktohumans">
-						<div className="talktohumanhead">Talk to a Human</div>
+						<div className="talktohumanhead">
+							Join Our Newsletter
+						</div>
 						<div className="talktohumanheader">
-							A pigeon is ineffective. Hit the button below to
-							start talking right away.
+							Leave the ordinary behind! Jumpstart your Web3
+							adventure by subscribing to our newsletter
 						</div>
 					</div>
-					<button className="cta_talktohuman">
-						Connect Now
-						<img src={rightArrow} alt="" />
-					</button>
+					<form class="cta_talktohuman">
+						<input
+							disabled=""
+							type="email"
+							placeholder="Enter your email address"
+						/>
+						<button disabled="">Subscribe</button>
+					</form>
 				</div>
 			</div>
 			<div className="footer-line-1"></div>
@@ -40,13 +45,25 @@ export function Footer() {
 					&copy;2023 TheWeb3Guys. All Rights Reserved
 				</div>
 				<div className="footer-links">
-					<Link to="https://www.instagram.com/theweb3guys/" target="_blank" className="footer-link">
+					<Link
+						to="https://www.instagram.com/theweb3guys/"
+						target="_blank"
+						className="footer-link"
+					>
 						<img src={facebook} alt="" />
 					</Link>
-					<Link to="https://www.youtube.com/@theweb3guys" target="_blank" className="footer-link">
+					<Link
+						to="https://www.youtube.com/@theweb3guys"
+						target="_blank"
+						className="footer-link"
+					>
 						<img src={linkedin} alt="" />
 					</Link>
-					<Link to ="https://twitter.com/theweb3guys" target="_blank" className="footer-link">
+					<Link
+						to="https://twitter.com/theweb3guys"
+						target="_blank"
+						className="footer-link"
+					>
 						<img src={twitter} alt="" />
 					</Link>
 				</div>

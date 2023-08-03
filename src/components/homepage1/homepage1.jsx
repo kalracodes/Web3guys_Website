@@ -28,19 +28,19 @@ function Homepage1() {
 					</p>
 				</div>
 				<div class="cta1">
-					<div class="s-cta">
-						<Link to="/about" class="content">
+					<Link to="/about" class="s-cta">
+						<div class="content">
 							Know More
-						</Link>
-					</div>
-					<div class="p-cta1">
+						</div>
+					</Link>
+					<Link to="/courses" class="p-cta1">
 						<div class="content-grow">Ready To Grow</div>
 						<img
 							class="arrow-drop-right-line-1-icon"
 							alt=""
 							src={rightArrow}
 						/>
-					</div>
+					</Link>
 				</div>
 				<img class="stars-icon" alt="" src={stars} />
 				<img class="hero-section-child" alt="" src={vector1} />

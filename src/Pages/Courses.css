@@ -1,0 +1,42 @@
+.Hero-section{
+  display: flex;
+  margin-top: 12%;
+  justify-content: space-between;
+  padding-left: 120px;
+  margin-bottom:15%;
+}
+
+.text-2{
+  font-family: 'Montserrat';
+  color: #ffdaa2;
+}
+
+.Hero-section .text .text-1,.Hero-section .text .text-3{
+  font-size: 5vh;
+  font-family: "SP Pro";
+  /* font-family: 'Intel', cursive; */
+  color: #e0d8ca;
+}
+.Hero-section .text .text-2{
+  font-size: 11vh;
+  line-height: 100%;
+  transition: 0.5s;
+  font-family: "SP Pro";
+}
+.frames .frame1{
+  position: absolute;
+  z-index: 1;
+  /* width: 20%; */
+  right: 20%;
+}
+.frames .frame2{
+  position: absolute;
+  z-index: 0;
+  /* width: 20%; */
+  margin-top: -5%;
+  right: 1%;
+}
+
+.frame1,.frame2{
+  width: 50vh;
+} 

@@ -2,8 +2,8 @@ footer {
 	margin-top: -400px;
 	margin-bottom: 50px;
 }
-.footer{
-	margin-top:0px !important;
+.footer {
+	margin-top: 0px !important;
 }
 .footer-line-1 {
 	margin-top: 60px !important;
@@ -63,7 +63,7 @@ footer {
 .footer-stars {
 	position: relative;
 	width: 1440px;
-	height: 790.15px;
+	height: 690.15px;
 	left: 0px;
 	top: 0px;
 
@@ -80,15 +80,15 @@ footer {
 }
 .stars-bg-footer {
 	top: 1px;
-	height: 790.15px;
+	height: 690.15px;
 	object-fit: cover;
 	opacity: 0.5;
 	mix-blend-mode: screen;
 	z-index: 1;
 }
-.ctr-footer{
-	margin-top: -530px;
-	display:flex;
+.ctr-footer {
+	margin-top: -500px;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 }
@@ -135,7 +135,7 @@ footer {
 }
 
 .talktohumanhead {
-	width: 304px;
+	/* width: 304px; */
 	height: 43px;
 
 	font-family: "Montserrat";
@@ -182,37 +182,46 @@ footer {
 }
 .cta_talktohuman {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
 	align-items: center;
-	padding: 16px 24px;
-
-	width: 174px;
-	height: 48px;
-	border: none;
-	/* G2 */
-
-	background: linear-gradient(135deg, #9d54c2 0%, #66288f 100%);
-	border-radius: 48px;
-
-	/* Inside auto layout */
-
-	flex: none;
-	order: 1;
-	flex-grow: 0;
-	font-family: "SF Pro";
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 168%;
-	/* identical to box height, or 27px */
-
-	letter-spacing: -0.015em;
-
-	color: #ffffff;
+	justify-content: center;
+	height: 50px;
+	width: 100%;
+	max-width: 500px;
+	gap: 16px;
 }
-.cta_talktohuman img{
-	padding-left:2px;
+.cta_talktohuman button,
+.cta_talktohuman input {
+	height: 100%;
+	border: none;
+	color: #fff;
+	border-radius: 50px;
+}
+
+.cta_talktohuman input {
+	width: 100%;
+	padding: 0 20px;
+	background-color: #0e0e0e;
+	outline: none;
+	font-size: 16px;
+}
+.cta_talktohuman button {
+	padding: 12px 24px;
+	border-radius: 48px;
+	font-family: var(--body-med-16);
+	font-size: 14px;
+	background: linear-gradient(135deg, #9d54c2, #66288f);
+}
+
+.cta_talktohuman button,
+.cta_talktohuman input {
+	height: 100%;
+	border: none;
+	color: #fff;
+	border-radius: 50px;
+}
+button:disabled {
+	pointer-events: none;
+	opacity: 0.6;
 }
 @media screen and (min-width: 750px) and (max-width: 900px) {
 	.footer-line-1 {
@@ -233,4 +242,9 @@ footer {
 	.footer-copyright-1 {
 		display: none;
 	}
+}
+
+.footer-link img{
+	height: 36px;
+	width: 36px;
 }

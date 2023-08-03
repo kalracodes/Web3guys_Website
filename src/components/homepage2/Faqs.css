@@ -22,14 +22,14 @@
 
 .accordion--container {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 	grid-gap: 10px;
 }
 
 .stars-bg-faq {
+	margin-left: -120px;
 	position: absolute;
 	width: 1440px;
-	z-index: 1;
 	height: 790.15px;
 	object-fit: cover;
 	opacity: 0.5;

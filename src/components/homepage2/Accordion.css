@@ -5,7 +5,6 @@
 	border-radius: 12px;
 	margin-bottom: 10px;
 	display: flex;
-
 	flex-direction: column;
 	cursor: pointer;
 }
@@ -23,9 +22,10 @@
 	font-size: 20px;
 	line-height: 168%;
 	/* or 34px */
-
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	letter-spacing: -0.015em;
-
 	color: #ffdaa2;
 }
 
@@ -35,4 +35,5 @@
 	padding: 10px;
 	box-sizing: border-box;
 	margin-top: -10px;
+  overflow: hidden;
 }

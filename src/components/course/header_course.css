@@ -1,0 +1,7 @@
+.HeaderContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin-left:120px;
+  margin-right: 120px;
+}

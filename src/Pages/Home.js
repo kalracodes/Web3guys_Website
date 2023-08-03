@@ -8,10 +8,10 @@ export const Home = () => {
       <div className="homepage-comp1">
         <Homepage1/>
       </div>
-      <div className="homepage-comp2">
+      {/* <div className="homepage-comp2">
         <Homepage2/>
-      </div>
-      <Footer/>
+      </div> */}
+      {/* <Footer/> */}
     </div>
   );
 };

@@ -11,7 +11,7 @@ function WhyChooseUs() {
 			<img class="stars-bg-us" alt="" src={starsBg} />
 			<div className="why-choose-us">
 				<div className="head-subhead" id="head">
-					<div className="why-choose-us1">Why Choose Us ?</div>
+					<div className="why-choose-us1">Who is this course for?</div>
 					<div className="unleash-your-potential">
 						Unleash Your Potential with Our Expert Support
 					</div>

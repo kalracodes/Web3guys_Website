@@ -222,7 +222,16 @@
 	display: flex;
 	border: 1.6px solid #ffdaa2;
 	border-radius: 48px;
+	text-decoration: none;
 }
+/* .s-cta :hover{
+	background-color: #ffdaa2;
+	color: #000;
+}
+a.s-cta :hover{
+	color:#000;
+	color: blue; */
+	/* } */
 .arrow-drop-right-line-1-icon {
 	position: relative;
 	height: 12px;
@@ -245,6 +254,7 @@
 	justify-content: center;
 	color: #fff;
 	z-index: 150;
+	text-decoration: none;
 }
 .cta1 {
 	position: absolute;

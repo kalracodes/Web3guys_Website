@@ -30,6 +30,7 @@ export default function Faqs() {
 	];
 
 	return (
+		<div>
 		<div className="faqs-main">
 			<img class="stars-bg-faq" alt="" src={starsBg} />
 			<h1>Frequently Asked Questions</h1>
@@ -37,6 +38,7 @@ export default function Faqs() {
 			<div className="accordion--container">
 				<Accordion class="ac-item" items={items} />
 			</div>
+		</div>
 		</div>
 	);
 }

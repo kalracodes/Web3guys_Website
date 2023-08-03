@@ -2,6 +2,7 @@ import React from "react";
 import "./course.css";
 import CourseCard from "./course_card.jsx";
 import web3sampleimg from "../../assets/web3sampleimg.webp";
+import starsBg from "../../assets/stars-bg@2x.png";
 function Course() {
 	var Course = [
 		{
@@ -89,6 +90,9 @@ function Course() {
 					);
 				})}
 			</div>
+			<div className="CustomerStars-course">
+					<img class="stars-bg-course" alt="" src={starsBg} />
+				</div>
 		</div>
 	);
 }
