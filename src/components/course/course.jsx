@@ -11,7 +11,7 @@ function Course() {
 			img: web3sampleimg,
 			lecture: "12",
 			level: "Beginner",
-			Url: "https://youtube.com/shorts/2S_OlKtBrHA?feature=share",
+			Url: "/id",
 		},
 		{
 			arrays: ["Web3", "Blockchain", "Crypto"],
@@ -19,7 +19,7 @@ function Course() {
 			img: web3sampleimg,
 			lecture: "12",
 			level: "Beginner",
-			Url: "https://youtube.com/shorts/2S_OlKtBrHA?feature=share",
+			Url: "/id",
 		},
 		{
 			arrays: ["Web3", "Blockchain", "Crypto"],
@@ -27,7 +27,7 @@ function Course() {
 			img: web3sampleimg,
 			lecture: "12",
 			level: "Beginner",
-			Url: "https://youtube.com/shorts/2S_OlKtBrHA?feature=share",
+			Url: "/id",
 		},
 		{
 			arrays: ["Web3", "Blockchain", "Crypto"],
@@ -35,7 +35,7 @@ function Course() {
 			img: web3sampleimg,
 			lecture: "12",
 			level: "Beginner",
-			Url: "https://youtube.com/shorts/2S_OlKtBrHA?feature=share",
+			Url: "/id",
 		},
 		{
 			arrays: ["Web3", "Blockchain", "Crypto"],
@@ -43,7 +43,7 @@ function Course() {
 			img: web3sampleimg,
 			lecture: "12",
 			level: "Beginner",
-			Url: "https://youtube.com/shorts/2S_OlKtBrHA?feature=share",
+			Url: "/id",
 		},
 		{
 			arrays: ["Web3", "Blockchain", "Crypto"],
@@ -51,7 +51,7 @@ function Course() {
 			img: web3sampleimg,
 			lecture: "12",
 			level: "Beginner",
-			Url: "https://youtube.com/shorts/2S_OlKtBrHA?feature=share",
+			Url: "/id",
 		},
 		{
 			arrays: ["Web3", "Blockchain", "Crypto"],
@@ -59,7 +59,7 @@ function Course() {
 			img: web3sampleimg,
 			lecture: "12",
 			level: "Beginner",
-			Url: "https://youtube.com/shorts/2S_OlKtBrHA?feature=share",
+			Url: "/id",
 		},
 		{
 			arrays: ["Web3", "Blockchain", "Crypto"],
@@ -67,7 +67,7 @@ function Course() {
 			img: web3sampleimg,
 			lecture: "12",
 			level: "Beginner",
-			Url: "https://youtube.com/shorts/2S_OlKtBrHA?feature=share",
+			Url: "/id",
 		},
 	];
 	return (

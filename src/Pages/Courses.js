@@ -1,6 +1,5 @@
 import { Footer } from "../components/footer/footer.jsx";
 import Course from "../components/course/course.jsx";
-import HeaderCourse from "../components/course/header_course.jsx";
 import frame1 from "../assets/frame1.png";
 import frame2 from "../assets/frame2.png";
 import starsBg from "../assets/stars-bg@2x.png";

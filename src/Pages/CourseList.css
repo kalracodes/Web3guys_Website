@@ -1,0 +1,66 @@
+.courselist-outer{
+	padding-bottom: 300px;
+	/* border-bottom: 1px solid #302c3f; */
+}
+.courselist-container {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	margin-top: 50px;
+	margin-left: 122px;
+	margin-right: 120px;
+	padding-bottom: 20px;
+}
+
+.courselist-innerwrapper {
+	padding-right: 50px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+	width: max-content;
+}
+
+.courselist-header {
+	font-size: 3.2vh;
+	line-height: 120%;
+	font-family: "Montserrat";
+	color: #ffdaa2;
+	padding-bottom: 30px;
+}
+
+.courselist-list {
+	font-size: 2.5vh;
+	font-family: "SP Pro";
+	color: #e0d8ca;
+	border-bottom: 1px solid #302c3f;
+	padding-bottom: 20px;
+}
+
+.img_wrapper_course_list {
+	z-index: 1;
+	width: 100%;
+	height: 200px;
+	margin-bottom: 20px;
+}
+
+.img_wrapper_course_list img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 22px;
+}
+
+.course_list_title {
+	color: #fff;
+	font-family: "SP Pro";
+	letter-spacing: 0.02em;
+	margin-top: 0;
+	margin-bottom: 24px;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 1.2em;
+}
+
+.iframe-course-list{
+	height: 100%;
+	width: 100%;
+}

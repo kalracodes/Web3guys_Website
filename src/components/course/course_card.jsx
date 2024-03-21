@@ -23,7 +23,7 @@ function CourseCard(props) {
                     <img src={dot} alt="" />
                     <div className="Courselevel">{props.level}</div>
                 </div>
-				<Link className="CourseCTA" to={props.Url} target="_blank">
+				<Link className="CourseCTA" to={props.Url}>
 					Start Learning
 				<img src={rightArrow} alt="" /></Link>
 			</div>

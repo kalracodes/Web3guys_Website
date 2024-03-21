@@ -16,18 +16,12 @@ function CustomerReviewHome() {
 		<div>
 			<div className="CustomerReviews">
 				<div className="CustomerReview">
-					<div className="CustomerReviewHead">Customer Reviews</div>
+					<div className="CustomerReviewHead">Meet Your Instructor</div>
 					<div className="CustomerReviewsh2">
 						Don't listen to us. Listen to our clients
 					</div>
 				</div>
 				<div className="CustomerReviewCards">
-					<CustomerReviewCards
-						text={review[0].text}
-						author={review[0].author}
-						company={review[0].company}
-						imga={review[0].imga}
-					/>
 					<CustomerReviewCards
 						text={review[0].text}
 						author={review[0].author}
